@@ -1,0 +1,26 @@
+
+    #first{
+        background-color: aqua;
+    }
+    .second{
+        background-color: blue;
+        color: black ;
+        border:11px solid black ;
+    }
+.bug-bu{
+    /* background-color:rgb(69, 97, 82) ; */
+    background-image: url('image.avif') ;
+}
+*{
+    margin: 20px;
+    padding: 30px  ;
+} 
+body{
+    height: 344px;
+    background-image: url("image.avif");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: top center;
+    background-attachment: fixed  ;
+    
+}  

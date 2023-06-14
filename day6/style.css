@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    background-image:linear-gradient(rgb(227, 194, 132),rgb(67,32,55));
+}
+h1{
+    color: aqua;
+    background-color: black;
+}
+div{margin-left: 22px;
+    width: 100%;
+    color: aquamarine;
+    background-color: blueviolet;
+}
+span{
+    margin-left: 22px;
+    color: brown;
+    background-color: black;
+}
+.DEEPAK{ margin-left: 22px;
+    width: 90px;
+    height: 90px;
+    background-color: chartreuse;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 15px;
+}
+.DEEPAK:hover{
+    background-color: azure;
+    color: rgb(13, 19, 199);
+    
+        DEEPAK-shadow: 5px 10px #888888;
+      
+}
