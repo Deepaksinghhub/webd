@@ -1,0 +1,160 @@
+/* Define the root varibles */
+:root{
+    --primaryColor:#213555;
+    --backgroundColor:#F5EFE7;
+    --primaryAccentColor:#4F709C;
+    --secondaryColor:#D8C4B6;
+    --whiteColor:white;
+    --blackColor:black;
+    --primaryFont:'Open Sans',sans-serif;
+    --navbarHeight: 5rem;
+   --cursiveFornt:'Pacifico',cursive;
+}
+/* main css */
+body{
+background-color: var(--backgroundColor);
+color:var(--primaryColor);
+ font-family:var(--primaryFont);
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+.navigation{
+    background-color: var(--whiteColor);
+    height:var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(0px 3px 4px gray);
+}
+.logo{
+    display: flex;
+    /* height: var(--navbarHeight); */
+    padding: 20px;
+    width: 12rem;
+    align-items: center;
+
+    
+}
+.contactImage{
+    height: 2rem;
+    padding:8px ;
+}
+.logoImage{
+    height: 2rem;
+    /* float: left; */
+    padding: 8px;
+}
+.menuItems{
+flex-grow: 2;
+
+}
+.menuItem{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg,var(--secondaryColor),var(--primaryColor));
+    
+    filter: drop-shadow(0px 3px 4px gray);
+    justify-content: space-around;
+    align-items: center;
+}
+.BannerImage{
+    height:300px ;
+    border-radius: 45px;
+}
+.greeting{
+    font-family: var(--cursiveFornt);
+    font-size: 1.25rem;
+}
+.title{
+    font-size: 3.5rem;
+    color: aliceblue;
+}
+.titleSpan{
+    display: inline-block;
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+.description{
+    margin: 30px 0px;
+    line-height: 2.5rem;
+}
+.showCvButton{
+   background: linear-gradient(white,rgb(235,235,235),rgb(245,245,245));
+   padding-right: 9px;
+padding-left: 9px;
+padding-top: 3px;
+padding-bottom: 2px;
+   border-radius: 5px;
+   filter: drop-shadow(10px 10px 5px grey);
+   text-decoration: none;
+}
+.showCvButton:hover{
+    background: linear-gradient(white,rgb(215,215,215));
+}
+.services{
+    margin: 5rem;
+}
+ .serviceText{
+    text-align: center;
+    text-transform: uppercase;
+ }  
+ .TextSubHeading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+
+ }
+ .TextHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+ }
+ .servicesCards{
+    margin-top: 30px;
+    display: flex;
+ }
+ .serviceCard{
+    border: 2px solid gray;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+ }
+ .serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px gray);
+ }
+ .serviceIconDiv{
+    background-color: var(--primaryColor);
+    padding: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+ }
+
+ .serviceTitle{
+    font-size: 1.75rem;
+    margin: 20px 0px;
+ }
+ .serviceFeature{
+    font-size: 1rem;
+
+ }
+ .material-symbols-outlined{
+    font-size: 1rem;
+    color: rgb(37, 34, 34);
+ }
+ .serviceFeatureIcon{
+    color: rgb(246, 239, 239);
+    font-size: 2rem;
+ }
+ .serviceIcon{
+    font-size: 3rem;
+    color: white;
+ }
